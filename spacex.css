@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    }
+    
+
+    a{
+    text-decoration: none;
+    }
+    .white{
+    color: white;
+    }
+    nav{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    position:fixed;
+    }
+    
+    .logo img{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 180px;
+    }
+    
+    .header2 ul{
+    display: flex;
+    align-items: center;
+    }
+    .header2 ul li{
+    
+    list-style: none;
+    margin: 10px;
+    }
+    .header2 ul li a{
+    color: rgb(255, 255, 255);
+    }
+    
+    .header3{
+    margin-right: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    /* first section */
+    .first-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(firstbg.jpg) ;
+    background-size: cover;
+    
+    }
+    .test{
+    
+    padding-top: 345px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 28px;
+    align-content: space-between;
+    
+    
+    }
+    .test1{
+    
+    font-size: 20px;
+    
+    }
+    .test2{
+    font-size: 44px;
+    font-weight:bold;
+    margin-bottom:20px ;
+    }
+    .button{
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 14px;
+    border-color: white;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    
+    }
+    .button:hover{
+    color: black;
+    background-color:white;
+    transition: 1.0s ease-in-out;
+    
+    }
+    /* second section */
+    .second-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(secondbg.jpg) ;
+    background-size: cover;
+    
+    }
+    /* third section */
+    .third-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(thirdbg.jpg) ;
+    background-size: cover;
+    
+    }
+    /* fourth section */
+    .fourth-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(forthbg.webp) ;
+    background-size: cover;
+    
+    }
+    /* fifth section */
+    .fifth-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(fifthbg.webp) ;
+    background-size: cover;
+    
+    }
+    
+    .last ul{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    
+    }
+    
+    .last li {
+    list-style: none;
+    display: flex;
+     align-content: center; 
+    padding: 30px;
+    
+    }
+    .last{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: aliceblue;
+    }
+    .copy{
+    color: rgba(205, 211, 216, 0.664);
+    }
+    
+    
